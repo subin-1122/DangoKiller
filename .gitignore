@@ -1,18 +1,9 @@
-__pycache__/
-*.py[oc]
-build/
+node_modules/
 dist/
-wheels/
-*.egg-info
-.venv
-.*.env
+.DS_Store
+*.local
 .env
-.idea/
-.vscode
-.coverage
-*.coverage
-.coverage.*
-# KNHANES 원시자료 — 보안서약 대상. Public 저장소에 올리지 않는다
-data/
-*.sav
-*.sas7bdat
+.env.*
+!.env.example
+.vite/
+coverage/
